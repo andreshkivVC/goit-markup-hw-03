@@ -205,17 +205,16 @@ margin-left: 93px;
 	padding-top: 0;
 }
 
-.item:not(:last-child) {
+.foto-item:not(:last-child) {
 	margin-right: 30px;
 }
 
 .foto-list {
 	display: flex;
-	padding-left: auto;
-	padding-right: auto;
 }
 
 img{
+	width: auto;
 	display: block;
 	max-width: 100%;
 }
@@ -242,8 +241,13 @@ img{
 background-color:#F5F4FA; 
 }
 .team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
 	margin-bottom: 50px;
-	text-align: center;
 }
 
 .team-name {
@@ -266,6 +270,9 @@ background-color:#F5F4FA;
 .team-data{
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+.team-item:not(:last-child){
+	margin-right: 30px;
 }
 
 /*----contacts----*/
@@ -319,7 +326,7 @@ background-color:#F5F4FA;
 	display: flex;
 	justify-content: center;
 }
-.item:not(:last-child) {
+.filter-item:not(:last-child) {
 	margin-right: 8px;
 }
 
